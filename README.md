@@ -1,2 +1,7 @@
-# DDiCodec
-Software Dolby-B/C Compander
+A New Software Dolby-C & B Option — DDi Codec
+ 		 
+ 	The arguments on pros and cons of Dolby-B/C system have been around for decades. The dissenters tend to associate muffled sound to Dolby-B/C itself, but the advocators suggest that the timbre error is completely avoidable at a maintenance cost on regular basis. Either of the opinions state that the performance of analog Dolby-B/C hardware is not as time-stable as other audio components. If a Dolby-B/C enabled tape deck has been out of maintenance for years, no matter how good/expensive it was when new, there is no guarantee that it will process Dolby-B/C formatted audio correctly today.
+ 
+ 	Since digital age, there seemed to be an easy solution — retooling Dolby B/C system in software. While the wish is ideally valid, the fact is not as easy as it sounded. The unique non-linear characteristics of Dolby-B/C system is not under the coverage of the modern DSP theory in general. Attempting to simulate Dolby-B/C by customizing a linear EQ plugin is a simplistic, inaccurate and amateurish idea. To achieve a precise digital implementation of Dolby-B/C, it requires quantitative understanding of the original Dolby-B/C analog circuitry at first, and then work out an innovative/proprietary approach to overcome the unique challenges. Especially that Dolby-C gives about twice of the challenge above Dolby-B to re-engineer in digital domain.	 
+ 	 	 
+ 	DDI Codec is crafted based on extensive study on the principle of Dolby-B/C system combined with revers-engineering a few reputable analog Dolby-B/C hardware units. The software strives for the state-of-the-art digital solution of Dolby-C (with full backward compatibility with Dolby-B) which is not only sounding correct but also measured correct.
